@@ -1,6 +1,6 @@
-# Taiwan–France Cybersecurity Workshop 2026
+# Taiwan–France Cybersecurity & AI Workshop 2026
 
-Static website project for the Taiwan–France Cybersecurity Workshop 2026.
+Static website project for the Taiwan–France Cybersecurity & AI Workshop 2026.
 
 ## Sections
 
