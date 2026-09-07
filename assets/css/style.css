@@ -27,6 +27,7 @@ img { max-width: 100%; display: block; }
 
 .container { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
 .section-pad { padding: 92px 0; }
+#partners { padding-top: 64px; }
 
 .site-header {
   position: sticky;
@@ -424,6 +425,29 @@ h4 { font-size: 1rem; line-height: 1.3; margin-bottom: 8px; }
 .submissions-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 44px; align-items: start; }
 .submissions-grid p { color: #d9e7f4; }
 .submission-card { color: var(--text); }
+.poster-document { padding: 48px 0 72px; background: white; }
+.poster-content { max-width: 960px; color: #253044; font-size: 1rem; line-height: 1.75; }
+.poster-page a { color: var(--primary-2); text-decoration: underline; text-underline-offset: 3px; }
+.poster-page a:hover { color: var(--primary); }
+.poster-page a:focus-visible { outline: 2px solid var(--primary-2); outline-offset: 4px; }
+.poster-back { display: inline-block; margin-bottom: 28px; font-size: 0.9rem; }
+.poster-kicker { margin-bottom: 8px; color: var(--muted); font-size: 0.9rem; }
+.poster-page h1 { font-size: clamp(2rem, 5vw, 2.75rem); line-height: 1.2; letter-spacing: -0.025em; margin-bottom: 20px; color: var(--primary); }
+.poster-intro { margin-bottom: 24px; }
+.poster-contents { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 16px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+.poster-contents span { font-weight: 700; }
+.poster-section { margin: 30px 0; }
+.poster-section h2 { font-size: 1.55rem; line-height: 1.3; letter-spacing: -0.015em; margin-bottom: 16px; color: var(--primary); scroll-margin-top: 100px; }
+.poster-section h3 { font-size: 1.12rem; margin: 20px 0 10px; }
+.poster-section p { margin-bottom: 12px; }
+.poster-section > :last-child { margin-bottom: 0; }
+.poster-criteria { padding-left: 24px; margin: 12px 0; }
+.poster-criteria li { margin-bottom: 8px; }
+.poster-dates { margin: 0; }
+.poster-dates div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 24px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.poster-dates dd { margin: 0; font-weight: 700; }
+.poster-note { border-left: 3px solid var(--border); padding-left: 16px; color: var(--muted); }
+.poster-return { border-top: 1px solid var(--border); padding-top: 24px; margin-top: 40px; font-size: 0.9rem; }
 .check-list { list-style: none; padding: 0; margin: 0; }
 .check-list li { position: relative; padding: 12px 0 12px 32px; color: var(--muted); border-bottom: 1px solid var(--border); }
 .check-list li:last-child { border-bottom: 0; }
