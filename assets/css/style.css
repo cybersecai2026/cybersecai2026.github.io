@@ -370,7 +370,7 @@ h4 { font-size: 1rem; line-height: 1.3; margin-bottom: 8px; }
 .speaker-affiliation { font-weight: 800; color: var(--primary) !important; }
 
 .partner-group h3 { margin-bottom: 18px; }
-.partner-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
+.partner-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .partner-card { text-align: center; }
 /* .logo-placeholder {
   height: 110px;
@@ -385,6 +385,7 @@ h4 { font-size: 1rem; line-height: 1.3; margin-bottom: 8px; }
 } */
 .partner-logo{
     height:110px;
+    overflow:hidden;
 
     display:flex;
     align-items:center;
@@ -402,6 +403,20 @@ h4 { font-size: 1rem; line-height: 1.3; margin-bottom: 8px; }
 
     object-fit:contain;
 }
+/* The NSTC source includes large white margins around the actual logo. */
+.partner-logo img.partner-logo-nstc {
+    width:100%;
+    max-width:100%;
+    max-height:none;
+    flex-shrink:0;
+}
+
+.partner-logo img.partner-logo-tacc {
+    width:180px;
+    max-width:75%;
+    max-height:65px;
+}
+
 .partner-card h4 { min-height: 52px; }
 .partner-card p { margin-bottom: 0; font-size: 0.92rem; }
 
@@ -570,13 +585,11 @@ h4 { font-size: 1rem; line-height: 1.3; margin-bottom: 8px; }
 .route-photos {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
 }
 
 .route-photo {
   display: none;
   width: 100%;
-  height: 100%;
 }
 
 .route-photo.active {
@@ -585,8 +598,7 @@ h4 { font-size: 1rem; line-height: 1.3; margin-bottom: 8px; }
 
 .route-photo img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   border-radius: 20px;
 }
 
@@ -762,9 +774,6 @@ h4 { font-size: 1rem; line-height: 1.3; margin-bottom: 8px; }
 .footer-inner p { margin-bottom: 0; color: #c6d9e8; }
 .footer-inner a { font-weight: 800; }
 
-@media (max-width: 1060px) {
-  .partner-grid { grid-template-columns: repeat(3, 1fr); }
-}
 @media (max-width: 980px) {
   .nav-toggle { display: inline-flex; }
   .nav-menu {
@@ -797,7 +806,7 @@ h4 { font-size: 1rem; line-height: 1.3; margin-bottom: 8px; }
   .hero { min-height: auto; }
   .hero-visual { min-height: 360px; }
   .strip-grid, .info-card-grid, .hotel-grid { grid-template-columns: 1fr; }
-  .partner-grid { grid-template-columns: repeat(2, 1fr); }
+  .partner-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .footer-inner { flex-direction: column; align-items: flex-start; }
 }
 @media (max-width: 620px) {
