@@ -1,0 +1,220 @@
+{"kind":"deck","id":"pr/9k1p9y","name":"Deck"}
+{"kind":"layout","layoutId":"a767266f-042e-4a16-9e34-8f9bbd463f1b","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"edbdf73e-8544-4364-9c29-f56313cb4712","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/pun0zg","slide":1,"title":"Program At A Glance","textShapes":117}
+{"kind":"textbox","id":"sh/onqtwni9","slide":1,"text":"Program At A Glance","textPreview":"Program At A Glance","textChars":19,"textLines":1,"bbox":[90,51,1300,100]}
+{"kind":"textbox","id":"sh/nmhs3i1o","slide":1,"text":"2026 Taiwan–France Joint Research Workshop on Cybersecurity & AI","textPreview":"2026 Taiwan–France Joint Research Workshop on Cybersecurity & AI","textChars":64,"textLines":1,"bbox":[90,158,1800,46]}
+{"kind":"textbox","id":"sh/2lobudk3","slide":1,"text":"3–6 November 2026  ·  Provisional program updated 6 October 2026","textPreview":"3–6 November 2026  ·  Provisional program updated 6 October 2026","textChars":64,"textLines":1,"bbox":[90,210,1800,35]}
+{"kind":"shape","id":"sh/1kfa18jy","slide":1,"bbox":[90,260,740,9]}
+{"kind":"shape","id":"sh/gj6ts32d","slide":1,"bbox":[830,260,740,9]}
+{"kind":"shape","id":"sh/fixszi1s","slide":1,"bbox":[1570,260,740,9]}
+{"kind":"shape","id":"sh/exobqdk7","slide":1,"bbox":[90,285,1092,820]}
+{"kind":"shape","id":"sh/twfax8jm","slide":1,"bbox":[108,303,1056,99]}
+{"kind":"textbox","id":"sh/sv6to321","slide":1,"text":"TUE 3 NOV","textPreview":"TUE 3 NOV","textChars":9,"textLines":1,"bbox":[133,311,900,78]}
+{"kind":"textbox","id":"sh/2lc7q98j","slide":1,"text":"Taipei","textPreview":"Taipei","textChars":6,"textLines":1,"bbox":[121,420,1030,65]}
+{"kind":"shape","id":"sh/nml8zep4","slide":1,"bbox":[1218,285,1092,820]}
+{"kind":"shape","id":"sh/onupsjq9","slide":1,"bbox":[1236,303,1056,99]}
+{"kind":"textbox","id":"sh/po3q1o7u","slide":1,"text":"WED 4 NOV","textPreview":"WED 4 NOV","textChars":9,"textLines":1,"bbox":[1261,311,900,78]}
+{"kind":"textbox","id":"sh/exs7m987","slide":1,"text":"Academia Sinica / Hsinchu","textPreview":"Academia Sinica / Hsinchu","textChars":25,"textLines":1,"bbox":[1249,420,1030,65]}
+{"kind":"shape","id":"sh/fy18vups","slide":1,"bbox":[90,1135,1092,1060]}
+{"kind":"shape","id":"sh/0japozqd","slide":1,"bbox":[108,1153,1056,99]}
+{"kind":"textbox","id":"sh/1k3qx47y","slide":1,"text":"THU 5 NOV","textPreview":"THU 5 NOV","textChars":9,"textLines":1,"bbox":[133,1161,900,78]}
+{"kind":"textbox","id":"sh/qts7ip8b","slide":1,"text":"Security workshop","textPreview":"Security workshop","textChars":17,"textLines":1,"bbox":[121,1270,1030,65]}
+{"kind":"shape","id":"sh/ru1oru9w","slide":1,"bbox":[1218,1135,1092,1060]}
+{"kind":"shape","id":"sh/vmdw3m1c","slide":1,"bbox":[1236,1153,1056,99]}
+{"kind":"textbox","id":"sh/ul4va1kr","slide":1,"text":"FRI 6 NOV","textPreview":"FRI 6 NOV","textChars":9,"textLines":1,"bbox":[1261,1161,900,78]}
+{"kind":"textbox","id":"sh/hofe5wji","slide":1,"text":"Joint + parallel","textPreview":"Joint + parallel","textChars":16,"textLines":1,"bbox":[1249,1270,1030,65]}
+{"kind":"shape","id":"sh/wnmdcr2x","slide":1,"bbox":[115,485,1042,56]}
+{"kind":"shape","id":"sh/jqxw7618","slide":1,"bbox":[115,493,6,40]}
+{"kind":"textbox","id":"sh/ipove1kn","slide":1,"text":"09:20","textPreview":"09:20","textChars":5,"textLines":1,"bbox":[138,491,225,44]}
+{"kind":"textbox","id":"sh/5sfe9gje","slide":1,"text":"Meet","textPreview":"Meet","textChars":4,"textLines":1,"bbox":[375,490,295,46]}
+{"kind":"textbox","id":"sh/4r6dgb2t","slide":1,"text":"Academia Sinica main gate","textPreview":"Academia Sinica main gate","textChars":25,"textLines":1,"bbox":[675,491,305,44]}
+{"kind":"shape","id":"sh/zutcv2l4","slide":1,"bbox":[115,545,1042,56]}
+{"kind":"shape","id":"sh/ytkv2hkj","slide":1,"bbox":[115,553,6,40]}
+{"kind":"textbox","id":"sh/ozitw3ih","slide":1,"text":"09:20–10:00","textPreview":"09:20–10:00","textChars":11,"textLines":1,"bbox":[138,551,225,44]}
+{"kind":"textbox","id":"sh/p0ra58j2","slide":1,"text":"Transfer","textPreview":"Transfer","textChars":8,"textLines":1,"bbox":[375,550,295,46]}
+{"kind":"textbox","id":"sh/2x0bud0b","slide":1,"text":"To NTU","textPreview":"To NTU","textChars":6,"textLines":1,"bbox":[675,551,305,44]}
+{"kind":"shape","id":"sh/3y9s3i1w","slide":1,"bbox":[115,605,1042,56]}
+{"kind":"shape","id":"sh/gvyts3i5","slide":1,"bbox":[115,613,6,40]}
+{"kind":"textbox","id":"sh/1w7a18jq","slide":1,"text":"10:00–12:00","textPreview":"10:00–12:00","textChars":11,"textLines":1,"bbox":[138,611,225,44]}
+{"kind":"textbox","id":"sh/etgbqt0f","slide":1,"text":"Visit","textPreview":"Visit","textChars":5,"textLines":1,"bbox":[375,610,295,46]}
+{"kind":"shape","id":"sh/fupszy10","slide":1,"bbox":[115,665,1042,56]}
+{"kind":"shape","id":"sh/0r2t4nip","slide":1,"bbox":[115,673,6,40]}
+{"kind":"textbox","id":"sh/lsbudsza","slide":1,"text":"12:00–12:30","textPreview":"12:00–12:30","textChars":11,"textLines":1,"bbox":[138,671,225,44]}
+{"kind":"textbox","id":"sh/hc3q5kzm","slide":1,"text":"Transfer","textPreview":"Transfer","textChars":8,"textLines":1,"bbox":[375,670,295,46]}
+{"kind":"textbox","id":"sh/wbupwfy1","slide":1,"text":"To lunch venue","textPreview":"To lunch venue","textChars":14,"textLines":1,"bbox":[675,671,305,44]}
+{"kind":"shape","id":"sh/val83uhg","slide":1,"bbox":[115,725,1042,56]}
+{"kind":"shape","id":"sh/u9c7upgv","slide":1,"bbox":[115,733,6,40]}
+{"kind":"textbox","id":"sh/50nq94zi","slide":1,"text":"12:30–14:00","textPreview":"12:30–14:00","textChars":11,"textLines":1,"bbox":[138,731,225,44]}
+{"kind":"textbox","id":"sh/4zep0zyx","slide":1,"text":"Lunch","textPreview":"Lunch","textChars":5,"textLines":1,"bbox":[486,728,300,50]}
+{"kind":"textbox","id":"sh/jy587uhs","slide":1,"text":"At NTU","textPreview":"At NTU","textChars":6,"textLines":1,"bbox":[855,731,305,44]}
+{"kind":"shape","id":"sh/idc7ypg7","slide":1,"bbox":[115,785,1042,56]}
+{"kind":"shape","id":"sh/t4nqd4fu","slide":1,"bbox":[115,793,6,40]}
+{"kind":"textbox","id":"sh/s3ep4zy9","slide":1,"text":"14:00–15:30","textPreview":"14:00–15:30","textChars":11,"textLines":1,"bbox":[138,791,225,44]}
+{"kind":"textbox","id":"sh/q98ny1wr","slide":1,"text":"Visit","textPreview":"Visit","textChars":5,"textLines":1,"bbox":[375,790,295,46]}
+{"kind":"textbox","id":"sh/bah476xc","slide":1,"text":"To be confirmed","textPreview":"To be confirmed","textChars":15,"textLines":1,"bbox":[675,791,305,44]}
+{"kind":"shape","id":"sh/cbq50beh","slide":1,"bbox":[115,845,1042,56]}
+{"kind":"shape","id":"sh/xczm9gf2","slide":1,"bbox":[115,853,6,40]}
+{"kind":"textbox","id":"sh/yd8n2lwn","slide":1,"text":"15:30–16:00","textPreview":"15:30–16:00","textChars":11,"textLines":1,"bbox":[138,851,225,44]}
+{"kind":"textbox","id":"sh/zeh4bqx8","slide":1,"text":"Transfer","textPreview":"Transfer","textChars":8,"textLines":1,"bbox":[375,850,295,46]}
+{"kind":"shape","id":"sh/kfa54vet","slide":1,"bbox":[115,905,1042,56]}
+{"kind":"shape","id":"sh/lgjmdgfe","slide":1,"bbox":[115,913,6,40]}
+{"kind":"textbox","id":"sh/mhsn6lwz","slide":1,"text":"16:00–18:00","textPreview":"16:00–18:00","textChars":11,"textLines":1,"bbox":[138,911,225,44]}
+{"kind":"textbox","id":"sh/7i1ofqxk","slide":1,"text":"Social Event","textPreview":"Social Event","textChars":12,"textLines":1,"bbox":[375,910,295,46]}
+{"kind":"shape","id":"sh/j6l4nqtc","slide":1,"bbox":[1243,490,512,51]}
+{"kind":"shape","id":"sh/ils3ulcr","slide":1,"bbox":[1773,490,512,51]}
+{"kind":"textbox","id":"sh/583mp0bi","slide":1,"text":"MAIN GROUP","textPreview":"MAIN GROUP","textChars":10,"textLines":1,"bbox":[1261,493,487,45]}
+{"kind":"textbox","id":"sh/47ulwvux","slide":1,"text":"PROF. MARION'S GROUP","textPreview":"PROF. MARION'S GROUP","textChars":20,"textLines":1,"bbox":[1791,493,487,45]}
+{"kind":"shape","id":"sh/vi14jqtg","slide":1,"bbox":[1243,553,512,56]}
+{"kind":"shape","id":"sh/uhs3qlcv","slide":1,"bbox":[1243,561,6,40]}
+{"kind":"textbox","id":"sh/hkjml0bm","slide":1,"text":"09:00","textPreview":"09:00","textChars":5,"textLines":1,"bbox":[1259,559,175,44]}
+{"kind":"textbox","id":"sh/wjalsvu1","slide":1,"text":"Meet","textPreview":"Meet","textChars":4,"textLines":1,"bbox":[1433,559,310,44]}
+{"kind":"shape","id":"sh/7eh4f6t4","slide":1,"bbox":[1243,613,512,56]}
+{"kind":"shape","id":"sh/md83m1cz","slide":1,"bbox":[1243,621,6,40]}
+{"kind":"textbox","id":"sh/c7m90n65","slide":1,"text":"09:00–09:30","textPreview":"09:00–09:30","textChars":11,"textLines":1,"bbox":[1259,619,175,44]}
+{"kind":"textbox","id":"sh/d8va9snq","slide":1,"text":"Transfer","textPreview":"Transfer","textChars":8,"textLines":1,"bbox":[1433,619,310,44]}
+{"kind":"shape","id":"sh/q54rydof","slide":1,"bbox":[1243,673,512,56]}
+{"kind":"shape","id":"sh/r6ds7i50","slide":1,"bbox":[1243,681,6,40]}
+{"kind":"textbox","id":"sh/0b6t4n6h","slide":1,"text":"09:30–11:00","textPreview":"09:30–11:00","textChars":11,"textLines":1,"bbox":[1259,679,175,44]}
+{"kind":"textbox","id":"sh/1cfadsn2","slide":1,"text":"Social Event","textPreview":"Social Event","textChars":12,"textLines":1,"bbox":[1433,679,310,44]}
+{"kind":"shape","id":"sh/e9or2dob","slide":1,"bbox":[1243,733,512,56]}
+{"kind":"shape","id":"sh/zaxsbi5w","slide":1,"bbox":[1243,741,6,40]}
+{"kind":"textbox","id":"sh/gf29s36d","slide":1,"text":"11:00–13:00","textPreview":"11:00–13:00","textChars":11,"textLines":1,"bbox":[1259,739,175,44]}
+{"kind":"textbox","id":"sh/hgba18ni","slide":1,"text":"Lunch & transfer","textPreview":"Lunch & transfer","textChars":16,"textLines":1,"bbox":[1386.5,737.5,225,47]}
+{"kind":"shape","id":"sh/5kr6943a","slide":1,"bbox":[1243,793,512,56]}
+{"kind":"shape","id":"sh/kjip0zm5","slide":1,"bbox":[1243,801,6,40]}
+{"kind":"textbox","id":"sh/jipo7ulk","slide":1,"text":"13:00–15:00","textPreview":"13:00–15:00","textChars":11,"textLines":1,"bbox":[1259,799,175,44]}
+{"kind":"textbox","id":"sh/ihg7yp4z","slide":1,"text":"Visit","textPreview":"Visit","textChars":5,"textLines":1,"bbox":[1433,799,310,44]}
+{"kind":"shape","id":"sh/xg765k3e","slide":1,"bbox":[1243,853,512,56]}
+{"kind":"shape","id":"sh/wfypwfmt","slide":1,"bbox":[1243,861,6,40]}
+{"kind":"textbox","id":"sh/vupo3al8","slide":1,"text":"15:00–15:30","textPreview":"15:00–15:30","textChars":11,"textLines":1,"bbox":[1259,859,175,44]}
+{"kind":"textbox","id":"sh/atg7up4n","slide":1,"text":"Transfer / break","textPreview":"Transfer / break","textChars":16,"textLines":1,"bbox":[1386.5,857.5,225,47]}
+{"kind":"shape","id":"sh/hcbqho3i","slide":1,"bbox":[1243,913,512,56]}
+{"kind":"shape","id":"sh/gb2p8jmx","slide":1,"bbox":[1243,921,6,40]}
+{"kind":"textbox","id":"sh/yxc32lkf","slide":1,"text":"15:30–16:30","textPreview":"15:30–16:30","textChars":11,"textLines":1,"bbox":[1259,919,175,44]}
+{"kind":"textbox","id":"sh/zyl4bq10","slide":1,"text":"Visit","textPreview":"Visit","textChars":5,"textLines":1,"bbox":[1433,919,310,44]}
+{"kind":"shape","id":"sh/0zul4b2l","slide":1,"bbox":[1243,973,512,56]}
+{"kind":"shape","id":"sh/l0nmdgj6","slide":1,"bbox":[1243,981,6,40]}
+{"kind":"textbox","id":"sh/qtc3y1kj","slide":1,"text":"16:30–18:00","textPreview":"16:30–18:00","textChars":11,"textLines":1,"bbox":[1259,979,175,44]}
+{"kind":"textbox","id":"sh/rul47614","slide":1,"text":"Return / free time","textPreview":"Return / free time","textChars":18,"textLines":1,"bbox":[1433,979,310,44]}
+{"kind":"shape","id":"sh/cvul0b2p","slide":1,"bbox":[1773,553,512,476]}
+{"kind":"shape","id":"sh/dw3m9gja","slide":1,"bbox":[1773,567,7,448]}
+{"kind":"textbox","id":"sh/apwna5kn","slide":1,"text":"ALL DAY","textPreview":"ALL DAY","textChars":7,"textLines":1,"bbox":[1805,564,457,55]}
+{"kind":"textbox","id":"sh/vq54ja18","slide":1,"text":"Academic exchange","textPreview":"Academic exchange","textChars":17,"textLines":1,"bbox":[1805,653,457,65]}
+{"kind":"textbox","id":"sh/87i58jul","slide":1,"text":"Academia Sinica","textPreview":"Academia Sinica","textChars":15,"textLines":1,"bbox":[1805,713,457,55]}
+{"kind":"textbox","id":"sh/98r61ov6","slide":1,"text":"Program details TBC","textPreview":"Program details TBC","textChars":19,"textLines":1,"bbox":[1805,951,457,55]}
+{"kind":"shape","id":"sh/m50n69cf","slide":1,"bbox":[115,1335,1042,54]}
+{"kind":"shape","id":"sh/769ozed0","slide":1,"bbox":[115,1343,6,38]}
+{"kind":"textbox","id":"sh/k3i54zup","slide":1,"text":"09:00–09:30","textPreview":"09:00–09:30","textChars":11,"textLines":1,"bbox":[138,1338,220,48]}
+{"kind":"textbox","id":"sh/l4r6x4vu","slide":1,"text":"Registration","textPreview":"Registration","textChars":12,"textLines":1,"bbox":[375,1337,300,50]}
+{"kind":"textbox","id":"sh/yhgn29cj","slide":1,"text":"Poster set-up","textPreview":"Poster set-up","textChars":13,"textLines":1,"bbox":[675,1339,470,46]}
+{"kind":"shape","id":"sh/zipovud4","slide":1,"bbox":[115,1393,1042,54]}
+{"kind":"shape","id":"sh/4z2pg3ut","slide":1,"bbox":[115,1401,6,38]}
+{"kind":"textbox","id":"sh/50b698ve","slide":1,"text":"09:30–10:10","textPreview":"09:30–10:10","textChars":11,"textLines":1,"bbox":[138,1396,220,48]}
+{"kind":"textbox","id":"sh/fux8z2xg","slide":1,"text":"Opening","textPreview":"Opening","textChars":7,"textLines":1,"bbox":[375,1395,300,50]}
+{"kind":"textbox","id":"sh/et4r6xwv","slide":1,"text":"Ceremony & group photo","textPreview":"Ceremony & group photo","textChars":22,"textLines":1,"bbox":[675,1397,470,46]}
+{"kind":"shape","id":"sh/1wfq1cfm","slide":1,"bbox":[115,1451,1042,96]}
+{"kind":"shape","id":"sh/gv6987e1","slide":1,"bbox":[115,1459,6,80]}
+{"kind":"textbox","id":"sh/3yxs32xc","slide":1,"text":"10:10–10:40","textPreview":"10:10–10:40","textChars":11,"textLines":1,"bbox":[138,1454,220,90]}
+{"kind":"textbox","id":"sh/2xorahw7","slide":1,"text":"Session 1","textPreview":"Session 1","textChars":9,"textLines":1,"bbox":[375,1453,300,92]}
+{"kind":"textbox","id":"sh/p0fa5cfi","slide":1,"text":"Malware Analysis","textPreview":"Malware Analysis","textChars":16,"textLines":1,"bbox":[675,1455,470,88]}
+{"kind":"shape","id":"sh/oz69c7ex","slide":1,"bbox":[115,1551,1042,42]}
+{"kind":"shape","id":"sh/j2d8rix8","slide":1,"bbox":[115,1559,6,26]}
+{"kind":"textbox","id":"sh/i1krydwn","slide":1,"text":"10:40–11:00","textPreview":"10:40–11:00","textChars":11,"textLines":1,"bbox":[138,1554,220,36]}
+{"kind":"textbox","id":"sh/69c3m5kn","slide":1,"text":"Tea break","textPreview":"Tea break","textChars":9,"textLines":1,"bbox":[441,1553,390,38]}
+{"kind":"shape","id":"sh/7ulkval8","slide":1,"bbox":[115,1597,1042,96]}
+{"kind":"shape","id":"sh/8vulof2t","slide":1,"bbox":[115,1605,6,80]}
+{"kind":"textbox","id":"sh/tw32xk3y","slide":1,"text":"11:00–12:00","textPreview":"11:00–12:00","textChars":11,"textLines":1,"bbox":[138,1600,220,90]}
+{"kind":"textbox","id":"sh/y5s3i5kb","slide":1,"text":"Session 2","textPreview":"Session 2","textChars":9,"textLines":1,"bbox":[375,1599,300,92]}
+{"kind":"textbox","id":"sh/z6lkralw","slide":1,"text":"Malware & Threat Detection","textPreview":"Malware & Threat Detection","textChars":26,"textLines":1,"bbox":[675,1601,470,88]}
+{"kind":"shape","id":"sh/k7ulkf2h","slide":1,"bbox":[115,1697,1042,50]}
+{"kind":"shape","id":"sh/l832tk32","slide":1,"bbox":[115,1705,6,34]}
+{"kind":"textbox","id":"sh/a1s3elkf","slide":1,"text":"12:00–13:30","textPreview":"12:00–13:30","textChars":11,"textLines":1,"bbox":[138,1700,220,44]}
+{"kind":"textbox","id":"sh/b21knql0","slide":1,"text":"Lunch & TACC Poster","textPreview":"Lunch & TACC Poster","textChars":19,"textLines":1,"bbox":[441,1699,390,46]}
+{"kind":"shape","id":"sh/dw76t8ni","slide":1,"bbox":[115,1751,1042,96]}
+{"kind":"shape","id":"sh/svy5k3mx","slide":1,"bbox":[115,1759,6,80]}
+{"kind":"textbox","id":"sh/rupory5c","slide":1,"text":"13:30–14:45","textPreview":"13:30–14:45","textChars":11,"textLines":1,"bbox":[138,1754,220,90]}
+{"kind":"textbox","id":"sh/qtgnit4r","slide":1,"text":"Session 3","textPreview":"Session 3","textChars":9,"textLines":1,"bbox":[375,1753,300,92]}
+{"kind":"textbox","id":"sh/5s76pon6","slide":1,"text":"Trustworthy Systems & AI Threats","textPreview":"Trustworthy Systems & AI Threats","textChars":32,"textLines":1,"bbox":[675,1755,470,88]}
+{"kind":"shape","id":"sh/4ry5wjm1","slide":1,"bbox":[115,1851,1042,42]}
+{"kind":"shape","id":"sh/3qpone5g","slide":1,"bbox":[115,1859,6,26]}
+{"kind":"textbox","id":"sh/ipwnu94v","slide":1,"text":"14:45–15:15","textPreview":"14:45–15:15","textChars":11,"textLines":1,"bbox":[138,1854,220,36]}
+{"kind":"textbox","id":"sh/hon6lona","slide":1,"text":"Tea break","textPreview":"Tea break","textChars":9,"textLines":1,"bbox":[441,1853,390,38]}
+{"kind":"shape","id":"sh/g3e5sjmp","slide":1,"bbox":[115,1897,1042,96]}
+{"kind":"shape","id":"sh/wv65cjip","slide":1,"bbox":[115,1905,6,80]}
+{"kind":"textbox","id":"sh/xgf65oju","slide":1,"text":"15:15–16:45","textPreview":"15:15–16:45","textChars":11,"textLines":1,"bbox":[138,1900,220,90]}
+{"kind":"textbox","id":"sh/at4na90j","slide":1,"text":"Session 4","textPreview":"Session 4","textChars":9,"textLines":1,"bbox":[375,1899,300,92]}
+{"kind":"textbox","id":"sh/vudo3e14","slide":1,"text":"Malware & Cyber Threats","textPreview":"Malware & Cyber Threats","textChars":23,"textLines":1,"bbox":[675,1901,470,88]}
+{"kind":"shape","id":"sh/kj65g3il","slide":1,"bbox":[115,1997,1042,54]}
+{"kind":"shape","id":"sh/5kf698j6","slide":1,"bbox":[115,2005,6,38]}
+{"kind":"textbox","id":"sh/ihonet0f","slide":1,"text":"16:45–17:00","textPreview":"16:45–17:00","textChars":11,"textLines":1,"bbox":[138,2000,220,48]}
+{"kind":"textbox","id":"sh/jixo7y10","slide":1,"text":"Closing","textPreview":"Closing","textChars":7,"textLines":1,"bbox":[375,1999,300,50]}
+{"kind":"shape","id":"sh/0n254zih","slide":1,"bbox":[115,2055,1042,54]}
+{"kind":"shape","id":"sh/lovmx4j2","slide":1,"bbox":[115,2063,6,38]}
+{"kind":"textbox","id":"sh/3ul0z6pg","slide":1,"text":"19:00–21:30","textPreview":"19:00–21:30","textChars":11,"textLines":1,"bbox":[138,2058,220,48]}
+{"kind":"textbox","id":"sh/2tczq1ob","slide":1,"text":"Banquet","textPreview":"Banquet","textChars":7,"textLines":1,"bbox":[375,2057,300,50]}
+{"kind":"shape","id":"sh/pw3i1g7m","slide":1,"bbox":[1243,1335,1042,54]}
+{"kind":"shape","id":"sh/ovuhsb61","slide":1,"bbox":[1243,1343,6,38]}
+{"kind":"textbox","id":"sh/fq1gvmpk","slide":1,"text":"09:00–09:30","textPreview":"09:00–09:30","textChars":11,"textLines":1,"bbox":[1266,1338,220,48]}
+{"kind":"textbox","id":"sh/epszmhoz","slide":1,"text":"Registration","textPreview":"Registration","textChars":12,"textLines":1,"bbox":[1503,1337,300,50]}
+{"kind":"textbox","id":"sh/1s3yxw7q","slide":1,"text":"Poster set-up","textPreview":"Poster set-up","textChars":13,"textLines":1,"bbox":[1803,1339,470,46]}
+{"kind":"shape","id":"sh/grahor65","slide":1,"bbox":[1243,1393,1042,54]}
+{"kind":"shape","id":"sh/rm1grmpo","slide":1,"bbox":[1243,1401,6,38]}
+{"kind":"textbox","id":"sh/6lsziho3","slide":1,"text":"09:30–09:50","textPreview":"09:30–09:50","textChars":11,"textLines":1,"bbox":[1266,1396,220,48]}
+{"kind":"textbox","id":"sh/ux8zuhsv","slide":1,"text":"Opening","textPreview":"Opening","textChars":7,"textLines":1,"bbox":[1503,1395,300,50]}
+{"kind":"textbox","id":"sh/vyh03m9g","slide":1,"text":"Ceremony & group photo","textPreview":"Ceremony & group photo","textChars":22,"textLines":1,"bbox":[1803,1397,470,46]}
+{"kind":"shape","id":"sh/wzqhw7a1","slide":1,"bbox":[1243,1451,1042,96]}
+{"kind":"shape","id":"sh/hkzi5cr6","slide":1,"bbox":[1243,1459,6,80]}
+{"kind":"textbox","id":"sh/ilsjyh8r","slide":1,"text":"09:50–10:50","textPreview":"09:50–10:50","textChars":11,"textLines":1,"bbox":[1266,1454,220,90]}
+{"kind":"textbox","id":"sh/jm107m9c","slide":1,"text":"Joint session","textPreview":"Joint session","textChars":13,"textLines":1,"bbox":[1503,1453,300,92]}
+{"kind":"textbox","id":"sh/4na10rqx","slide":1,"text":"AI Security · 20-minute talks","textPreview":"AI Security · 20-minute talks","textChars":29,"textLines":1,"bbox":[1803,1455,470,88]}
+{"kind":"shape","id":"sh/5oji9wri","slide":1,"bbox":[1243,1551,1042,42]}
+{"kind":"shape","id":"sh/6psj2183","slide":1,"bbox":[1243,1559,6,26]}
+{"kind":"textbox","id":"sh/rq10b69o","slide":1,"text":"10:50–11:15","textPreview":"10:50–11:15","textChars":11,"textLines":1,"bbox":[1266,1554,220,36]}
+{"kind":"textbox","id":"sh/1kn210bq","slide":1,"text":"Tea break","textPreview":"Tea break","textChars":9,"textLines":1,"bbox":[1569,1553,390,38]}
+{"kind":"textbox","id":"sh/gjul8va5","slide":1,"text":"Tracks split","textPreview":"Tracks split","textChars":12,"textLines":1,"bbox":[1983,1555,300,34]}
+{"kind":"textbox","id":"sh/filkzqtk","slide":1,"text":"Parallel 1","textPreview":"Parallel 1","textChars":10,"textLines":1,"bbox":[1266,1611,195,34]}
+{"kind":"textbox","id":"sh/ehc36lcz","slide":1,"text":"11:15–12:00","textPreview":"11:15–12:00","textChars":11,"textLines":1,"bbox":[1266,1644,205,40]}
+{"kind":"shape","id":"sh/ponm50bm","slide":1,"bbox":[1478,1597,399,96]}
+{"kind":"shape","id":"sh/onelcvah","slide":1,"bbox":[1889,1597,396,96]}
+{"kind":"shape","id":"sh/3m5k3atw","slide":1,"bbox":[1478,1605,6,80]}
+{"kind":"shape","id":"sh/2lw3a5sb","slide":1,"bbox":[1889,1605,6,80]}
+{"kind":"textbox","id":"sh/dc7m9kby","slide":1,"text":"AI Security","textPreview":"AI Security","textChars":11,"textLines":1,"bbox":[1490,1600,375,90]}
+{"kind":"textbox","id":"sh/cbylgfad","slide":1,"text":"AI (1)","textPreview":"AI (1)","textChars":6,"textLines":1,"bbox":[1902,1600,370,90]}
+{"kind":"shape","id":"sh/kfudwnap","slide":1,"bbox":[1243,1697,1042,50]}
+{"kind":"shape","id":"sh/5g3epsra","slide":1,"bbox":[1243,1705,6,34]}
+{"kind":"textbox","id":"sh/idcvudsj","slide":1,"text":"12:00–13:30","textPreview":"12:00–13:30","textChars":11,"textLines":1,"bbox":[1266,1700,220,44]}
+{"kind":"textbox","id":"sh/jelwni94","slide":1,"text":"Lunch & posters","textPreview":"Lunch & posters","textChars":15,"textLines":1,"bbox":[1569,1699,390,46]}
+{"kind":"textbox","id":"sh/wbadsnat","slide":1,"text":"TACC Research Posters","textPreview":"TACC Research Posters","textChars":21,"textLines":1,"bbox":[1983,1701,300,42]}
+{"kind":"textbox","id":"sh/xcjel8ry","slide":1,"text":"Parallel 2","textPreview":"Parallel 2","textChars":10,"textLines":1,"bbox":[1266,1765,195,34]}
+{"kind":"textbox","id":"sh/a9svqdsn","slide":1,"text":"13:30–14:45","textPreview":"13:30–14:45","textChars":11,"textLines":1,"bbox":[1266,1798,205,40]}
+{"kind":"shape","id":"sh/va1wjit8","slide":1,"bbox":[1478,1751,399,96]}
+{"kind":"shape","id":"sh/8nado3ah","slide":1,"bbox":[1889,1751,396,96]}
+{"kind":"shape","id":"sh/9ojuh8b2","slide":1,"bbox":[1478,1759,6,80]}
+{"kind":"shape","id":"sh/bihw7yd4","slide":1,"bbox":[1889,1759,6,80]}
+{"kind":"textbox","id":"sh/qh8fytcj","slide":1,"text":"Cybersecurity & Wireless","textPreview":"Cybersecurity & Wireless","textChars":24,"textLines":1,"bbox":[1490,1754,375,90]}
+{"kind":"textbox","id":"sh/dkze98vu","slide":1,"text":"AI (2)","textPreview":"AI (2)","textChars":6,"textLines":1,"bbox":[1902,1754,370,90]}
+{"kind":"shape","id":"sh/cjqx03u9","slide":1,"bbox":[1243,1851,1042,42]}
+{"kind":"shape","id":"sh/zm1wbid0","slide":1,"bbox":[1243,1859,6,26]}
+{"kind":"textbox","id":"sh/yl8f2dcf","slide":1,"text":"14:45–15:15","textPreview":"14:45–15:15","textChars":11,"textLines":1,"bbox":[1266,1854,220,36]}
+{"kind":"textbox","id":"sh/l8jed8v6","slide":1,"text":"Tea break","textPreview":"Tea break","textChars":9,"textLines":1,"bbox":[1569,1853,390,38]}
+{"kind":"textbox","id":"sh/07ax43ul","slide":1,"text":"Parallel 3","textPreview":"Parallel 3","textChars":10,"textLines":1,"bbox":[1266,1911,195,34]}
+{"kind":"textbox","id":"sh/na1wfidw","slide":1,"text":"15:15–16:45","textPreview":"15:15–16:45","textChars":11,"textLines":1,"bbox":[1266,1944,205,40]}
+{"kind":"shape","id":"sh/m9sf6dcr","slide":1,"bbox":[1478,1897,399,96]}
+{"kind":"shape","id":"sh/nuloj21c","slide":1,"bbox":[1889,1897,396,96]}
+{"kind":"shape","id":"sh/2tcnqhkr","slide":1,"bbox":[1478,1905,6,80]}
+{"kind":"shape","id":"sh/pg36lcji","slide":1,"bbox":[1889,1905,6,80]}
+{"kind":"textbox","id":"sh/ovups72x","slide":1,"text":"Hardware & Crypto","textPreview":"Hardware & Crypto","textChars":17,"textLines":1,"bbox":[1490,1900,375,90]}
+{"kind":"textbox","id":"sh/fqlof210","slide":1,"text":"AI (3)","textPreview":"AI (3)","textChars":6,"textLines":1,"bbox":[1902,1900,370,90]}
+{"kind":"shape","id":"sh/epsnmxkv","slide":1,"bbox":[1243,1997,1042,54]}
+{"kind":"shape","id":"sh/1s36hcj6","slide":1,"bbox":[1243,2005,6,38]}
+{"kind":"textbox","id":"sh/0ru5o72l","slide":1,"text":"16:45–17:00","textPreview":"16:45–17:00","textChars":11,"textLines":1,"bbox":[1266,2000,220,48]}
+{"kind":"textbox","id":"sh/rm1obil4","slide":1,"text":"Closing","textPreview":"Closing","textChars":7,"textLines":1,"bbox":[1503,1999,300,50]}
+{"kind":"textbox","id":"sh/qlsnidkj","slide":1,"text":"Joint ceremony","textPreview":"Joint ceremony","textChars":14,"textLines":1,"bbox":[1803,2001,470,46]}
+{"kind":"shape","id":"sh/grqlsjih","slide":1,"bbox":[1243,2055,1042,54]}
+{"kind":"shape","id":"sh/hszmloz2","slide":1,"bbox":[1243,2063,6,38]}
+{"kind":"textbox","id":"sh/u5o3qt0b","slide":1,"text":"19:00–21:30","textPreview":"19:00–21:30","textChars":11,"textLines":1,"bbox":[1266,2058,220,48]}
+{"kind":"textbox","id":"sh/v6hkjehw","slide":1,"text":"Farewell party","textPreview":"Farewell party","textChars":14,"textLines":1,"bbox":[1503,2057,300,50]}
+{"kind":"shape","id":"sh/4vqlw3id","slide":1,"bbox":[90,2230,2220,2]}
+{"kind":"textbox","id":"sh/5wzmp8zy","slide":1,"text":"Poster presenters stand by their posters 13:00–13:30 on both days.  Session and speaker details remain in the full provisional program.","textPreview":"Poster presenters stand by their posters 13:00–13:30 on both days.  Session and speaker details remain in the full provisional program.","textChars":135,"textLines":1,"bbox":[90,2241,2200,47]}
+{"kind":"notes","id":"nt/pun0zg","slide":1,"text":"Based on the provisional Taiwan–France Workshop Program updated 6 October 2026."}

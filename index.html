@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260910-3" />
+  <link rel="stylesheet" href="assets/css/style.css?v=20261008-18" />
 </head>
 <body>
   <div id="top"></div>
@@ -23,9 +23,25 @@
       <ul class="nav-menu">
         <li><a href="#top">Home</a></li>
         <!-- <li><a href="call-for-posters.html#cybersecurity-track">Track</a></li> -->
-        <li><a href="#program">Program</a></li>
+        <li class="nav-dropdown">
+          <a href="#program">Program</a>
+          <button class="nav-submenu-toggle" type="button" aria-label="Show Program options" aria-expanded="false" aria-controls="program-submenu"></button>
+          <ul class="nav-submenu" id="program-submenu">
+            <li><a href="#program-at-a-glance">Program At A Glance</a></li>
+            <li><a href="program-overview.html">Program Overview</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+          </ul>
+        </li>
         <li><a href="#partners">Partners</a></li>
-        <li><a href="#submissions">Call for Posters</a></li>
+        <li class="nav-dropdown">
+          <a href="#submissions">Call for Posters</a>
+          <button class="nav-submenu-toggle" type="button" aria-label="Show Call for Posters options" aria-expanded="false" aria-controls="posters-submenu"></button>
+          <ul class="nav-submenu" id="posters-submenu">
+            <li><a href="call-for-posters.html#call-for-poster">Call for Poster</a></li>
+            <li><a href="call-for-posters.html#accepted-poster">Accepted Poster</a></li>
+            <li><a href="call-for-posters.html#best-poster-award">Best Poster Award</a></li>
+          </ul>
+        </li>
         <li><a href="#practical-info">Practical Information</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
@@ -96,9 +112,97 @@
         <div class="section-heading left">
           <p class="eyebrow">Program</p>
           <h2>Program</h2>
-          <p>Day 1 and Day 2 speakers.</p>
+          <p>Explore the schedule, daily themes, and workshop speakers.</p>
         </div>
 
+        <section id="program-at-a-glance" class="program-part" aria-labelledby="program-at-a-glance-heading">
+          <h3 id="program-at-a-glance-heading">Program At A Glance</h3>
+          <div class="glance-grid">
+            <article class="glance-card">
+              <h4 class="glance-date glance-date-blue">TUE 3 NOV</h4>
+              <h5 class="glance-place">Taipei</h5>
+              <div class="glance-rows">
+                <div class="glance-row glance-row-detail glance-row-neutral"><span class="glance-time">09:20</span><strong class="glance-name">Meet</strong><span class="glance-detail">Academia Sinica main gate</span></div>
+                <div class="glance-row glance-row-detail glance-row-neutral"><span class="glance-time">09:20 - 10:00</span><strong class="glance-name">Transfer</strong><span class="glance-detail">To NTU</span></div>
+                <div class="glance-row glance-row-blue"><span class="glance-time">10:00 - 12:00</span><strong class="glance-name">Visit</strong></div>
+                <div class="glance-row glance-row-detail glance-row-neutral"><span class="glance-time">12:00 - 12:30</span><strong class="glance-name">Transfer</strong><span class="glance-detail">To lunch venue</span></div>
+                <div class="glance-row glance-row-detail glance-row-neutral"><span class="glance-time">12:30 - 14:00</span><strong class="glance-name">Lunch</strong><span class="glance-detail">At NTU</span></div>
+                <div class="glance-row glance-row-blue"><span class="glance-time">14:00 - 15:30</span><strong class="glance-name">Visit</strong></div>
+                <div class="glance-row glance-row-neutral"><span class="glance-time">15:30 - 16:00</span><strong class="glance-name">Transfer</strong></div>
+                <div class="glance-row glance-row-blue"><span class="glance-time">16:00 - 18:00</span><strong class="glance-name">Social Event</strong></div>
+              </div>
+            </article>
+
+            <article class="glance-card">
+              <h4 class="glance-date glance-date-red">WED 4 NOV</h4>
+              <h5 class="glance-place">Academia Sinica / Hsinchu</h5>
+              <div class="glance-groups">
+                <div class="glance-group-main">
+                  <h6 class="glance-group-label glance-group-label-blue">MAIN GROUP</h6>
+                  <div class="glance-rows">
+                    <div class="glance-row glance-row-neutral"><span class="glance-time">09:00</span><strong class="glance-name">Meet</strong></div>
+                    <div class="glance-row glance-row-neutral"><span class="glance-time">09:00 - 09:30</span><strong class="glance-name">Transfer</strong></div>
+                    <div class="glance-row glance-row-blue"><span class="glance-time">09:30 - 11:00</span><strong class="glance-name">Social Event</strong></div>
+                    <div class="glance-row glance-row-neutral"><span class="glance-time">11:00 - 13:00</span><strong class="glance-name">Lunch &amp; transfer</strong></div>
+                    <div class="glance-row glance-row-blue"><span class="glance-time">13:00 - 15:00</span><strong class="glance-name">Visit</strong></div>
+                    <div class="glance-row glance-row-neutral"><span class="glance-time">15:00 - 15:30</span><strong class="glance-name">Transfer / break</strong></div>
+                    <div class="glance-row glance-row-blue"><span class="glance-time">15:30 - 16:30</span><strong class="glance-name">Visit</strong></div>
+                    <div class="glance-row glance-row-neutral"><span class="glance-time">16:30 - 18:00</span><strong class="glance-name">Return / free time</strong></div>
+                  </div>
+                </div>
+                <div class="glance-group-side">
+                  <h6 class="glance-group-label glance-group-label-red">PROF. MARION’S STUDENT</h6>
+                  <div class="glance-exchange"><strong>ALL DAY</strong><div><b>Academic exchange</b><span>Academia Sinica</span></div></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="glance-card">
+              <h4 class="glance-date glance-date-blue">THU 5 NOV</h4>
+              <h5 class="glance-place">Security workshop</h5>
+              <div class="glance-rows">
+                <div class="glance-row glance-row-neutral glance-row-center"><span class="glance-time">09:00 - 09:30</span><strong class="glance-name">Registration</strong></div>
+                <div class="glance-row glance-row-neutral glance-row-center"><span class="glance-time">09:30 - 10:10</span><strong class="glance-name">Opening</strong></div>
+                <div class="glance-row glance-row-session glance-row-detail"><span class="glance-time">10:10 - 10:40</span><strong class="glance-name">Session 1</strong><span class="glance-detail">Malware Analysis</span></div>
+                <div class="glance-row glance-row-break glance-row-center"><span class="glance-time">10:40 - 11:00</span><strong class="glance-name">Tea break</strong></div>
+                <div class="glance-row glance-row-session glance-row-detail"><span class="glance-time">11:00 - 12:00</span><strong class="glance-name">Session 2</strong><span class="glance-detail">Malware &amp; Threat Detection</span></div>
+                <div class="glance-row glance-row-break glance-row-center"><span class="glance-time">12:00 - 13:30</span><strong class="glance-name">Lunch &amp; TACC Poster</strong></div>
+                <div class="glance-row glance-row-session glance-row-detail"><span class="glance-time">13:30 - 14:45</span><strong class="glance-name">Session 3</strong><span class="glance-detail">Trustworthy Systems &amp; AI Threats</span></div>
+                <div class="glance-row glance-row-break glance-row-center"><span class="glance-time">14:45 - 15:15</span><strong class="glance-name">Tea break</strong></div>
+                <div class="glance-row glance-row-session glance-row-detail"><span class="glance-time">15:15 - 16:45</span><strong class="glance-name">Session 4</strong><span class="glance-detail">Malware &amp; Cyber Threats</span></div>
+                <div class="glance-row glance-row-neutral glance-row-center"><span class="glance-time">16:45 - 17:00</span><strong class="glance-name">Closing</strong></div>
+                <div class="glance-row glance-row-neutral glance-row-center"><span class="glance-time">19:00 - 21:30</span><strong class="glance-name">Banquet</strong></div>
+              </div>
+            </article>
+
+            <article class="glance-card">
+              <h4 class="glance-date glance-date-red">FRI 6 NOV</h4>
+              <h5 class="glance-place">Joint / Parallel Sessions</h5>
+              <div class="glance-rows">
+                <div class="glance-row glance-row-neutral glance-row-center"><span class="glance-time">09:00 - 09:30</span><strong class="glance-name">Registration</strong></div>
+                <div class="glance-row glance-row-neutral glance-row-center"><span class="glance-time">09:30 - 09:50</span><strong class="glance-name">Opening</strong></div>
+                <div class="glance-row glance-row-session glance-row-detail"><span class="glance-time">09:50 - 10:50</span><strong class="glance-name">Joint session</strong><span class="glance-detail">AI Security · 20-minute talks</span></div>
+                <div class="glance-row glance-row-break glance-row-center"><span class="glance-time">10:50 - 11:15</span><strong class="glance-name">Tea break</strong></div>
+                <div class="glance-parallel"><div class="glance-parallel-time"><strong>Parallel 1</strong><span>11:15 - 12:00</span></div><div class="glance-parallel-topic">AI Security</div><div class="glance-parallel-topic">AI (1)</div></div>
+                <div class="glance-row glance-row-break glance-row-center"><span class="glance-time">12:00 - 13:30</span><strong class="glance-name">Lunch &amp; posters</strong></div>
+                <div class="glance-parallel"><div class="glance-parallel-time"><strong>Parallel 2</strong><span>13:30 - 14:45</span></div><div class="glance-parallel-topic">Cybersecurity<br>&amp; Wireless</div><div class="glance-parallel-topic">AI (2)</div></div>
+                <div class="glance-row glance-row-break glance-row-center"><span class="glance-time">14:45 - 15:15</span><strong class="glance-name">Tea break</strong></div>
+                <div class="glance-parallel"><div class="glance-parallel-time"><strong>Parallel 3</strong><span>15:15 - 16:45</span></div><div class="glance-parallel-topic">Hardware &amp; Crypto</div><div class="glance-parallel-topic">AI (3)</div></div>
+                <div class="glance-row glance-row-neutral glance-row-center"><span class="glance-time">16:45 - 17:00</span><strong class="glance-name">Closing</strong></div>
+                <div class="glance-row glance-row-neutral glance-row-center"><span class="glance-time">19:00 - 21:30</span><strong class="glance-name">Farewell party</strong></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="program-overview" class="program-part" aria-labelledby="program-overview-heading">
+          <h3 id="program-overview-heading"><a href="program-overview.html">Program Overview</a></h3>
+          <p class="program-overview-intro">Read the complete provisional program, including visits, talk formats, speakers, and the Security and AI workshop schedules.</p>
+          <a class="btn btn-primary" href="program-overview.html">View detailed program →</a>
+        </section>
+
+        <section id="speakers" class="program-part" aria-labelledby="speakers-heading">
+          <h3 id="speakers-heading">Speakers</h3>
         <div class="day-block">
           <div class="day-heading">
             <span>Day 1</span>
@@ -193,6 +297,7 @@
             </article>
           </div>
         </div>
+        </section>
       </div>
     </section>
 
@@ -303,24 +408,28 @@
     </section>
 
     <section id="submissions" class="section-pad accent-bg">
-      <div class="container submissions-grid">
-        <div>
-          <p class="eyebrow light">Submissions</p>
-          <h2><a href="call-for-posters.html">Call for Posters</a></h2>
-          <p>We welcome Student Posters and Research Group Posters.</p>
-          <a class="btn btn-light" href="call-for-posters.html">View Call for Posters →</a>
+      <div class="container">
+        <div class="section-heading left section-heading-light">
+          <p class="eyebrow light">Posters</p>
+          <h2>Call for Posters</h2>
+          <p>Submission information, accepted posters, and award details.</p>
         </div>
-        <div class="submission-card">
-          <h3>Submission Guidelines</h3>
-          <ul class="check-list">
-            <li><strong>Student Poster:</strong> Maximum 1 page using the IEEE Conference Template; submissions are subject to review.</li>
-            <!-- <li><strong>Research Group Poster:</strong> For TACC project research groups; registration only, with no one-page submission required.</li> -->
-            <!-- <li><strong>Poster Presentation Certificate</strong> All student presenters of accepted posters will receive an <strong>official Certificate of Poster Presentation.</strong></li> 
-            <li><strong>Best Poster Award</strong> Up to 20% of accepted posters will be recognized with the <strong>Best Poster Award.</strong></li> 
-            <li><strong>Complimentary Registration</strong> Each accepted poster includes <strong>one complimentary student registration and free attendance at the Day 1 banquet.</strong></li>  -->
-            <li><strong>Submission / registration deadline:</strong> October 12, 2026</li>
-            <li><strong>Student acceptance notification:</strong> October 23, 2026</li>
-          </ul>
+        <div class="poster-summary-grid">
+          <article class="poster-summary-card">
+            <h3>Call for Poster</h3>
+            <p>Student Poster submissions are open through October 12, 2026. Submit a one-page summary using the IEEE Conference Template.</p>
+            <a href="call-for-posters.html#call-for-poster">Submission details →</a>
+          </article>
+          <article class="poster-summary-card">
+            <h3>Accepted Poster</h3>
+            <p>Acceptance notifications are scheduled for October 23, 2026. Accepted poster information will appear here after review.</p>
+            <a href="call-for-posters.html#accepted-poster">Accepted poster details →</a>
+          </article>
+          <article class="poster-summary-card">
+            <h3>Best Poster Award</h3>
+            <p>Up to 20% of accepted Student Posters will be recognized with the Best Poster Award.</p>
+            <a href="call-for-posters.html#best-poster-award">Award details →</a>
+          </article>
         </div>
       </div>
     </section>
