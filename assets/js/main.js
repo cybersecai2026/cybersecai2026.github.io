@@ -121,7 +121,25 @@ document.querySelectorAll(".route-tabs").forEach((tabs) => {
   if (speakerDialog) {
     const title = speakerDialog.querySelector('#speaker-dialog-title');
     const content = speakerDialog.querySelector('#speaker-dialog-content');
+    const closeButton = speakerDialog.querySelector('.speaker-dialog-close');
     let activePhoto;
+
+    const closeSpeakerDialog = () => {
+      if (speakerDialog.open) speakerDialog.close();
+    };
+
+    // Handle Escape explicitly, including when focus has moved outside the dialog.
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !event.isComposing && speakerDialog.open) {
+        event.preventDefault();
+        closeSpeakerDialog();
+      }
+    }, true);
+
+    speakerDialog.addEventListener('cancel', (event) => {
+      event.preventDefault();
+      closeSpeakerDialog();
+    });
 
     document.querySelectorAll('[data-speaker-info]').forEach((button) => {
       button.addEventListener('click', () => {
@@ -130,25 +148,26 @@ document.querySelectorAll(".route-tabs").forEach((tabs) => {
 
         activePhoto = button;
         const name = button.closest('.speaker-card').querySelector('h3').textContent;
+        const chineseNameAndTitle = [button.dataset.chineseName, button.dataset.chineseTitle]
+          .filter(Boolean).join(' ');
         title.textContent = button.dataset.chineseName
-          ? `${name} (${button.dataset.chineseName})`
+          ? `${name} (${chineseNameAndTitle})`
           : name;
         content.replaceChildren(template.content.cloneNode(true));
         speakerDialog.showModal();
         document.body.classList.add('speaker-dialog-open');
+        closeButton.focus({ preventScroll: true });
       });
     });
 
-    speakerDialog.querySelector('.speaker-dialog-close').addEventListener('click', () => {
-      speakerDialog.close();
-    });
+    closeButton.addEventListener('click', closeSpeakerDialog);
 
     speakerDialog.addEventListener('click', (event) => {
       if (event.target !== speakerDialog) return;
       const bounds = speakerDialog.getBoundingClientRect();
       if (event.clientX < bounds.left || event.clientX > bounds.right ||
           event.clientY < bounds.top || event.clientY > bounds.bottom) {
-        speakerDialog.close();
+        closeSpeakerDialog();
       }
     });
 
