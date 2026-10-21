@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=20261016-speaker-details-5" />
+  <link rel="stylesheet" href="assets/css/style.css?v=20261021-opening-posters" />
 </head>
 <body>
 <div id="top"></div>
@@ -59,7 +59,22 @@
 <div class="container">
 <a class="detail-back" href="index.html">&larr; Back to workshop</a>
 <div class="section-heading left"><h1>Speakers</h1></div>
+        <section id="opening-speaker" class="program-part" aria-labelledby="opening-speaker-heading">
+          <h2 id="opening-speaker-heading" class="speaker-section-title">Opening Speaker</h2>
+          <div class="speaker-grid program-speaker-grid">
+            <article class="speaker-card">
+              <button class="speaker-photo speaker-photo-trigger" type="button" data-speaker-info="speaker-info-yeali-sun" data-chinese-name="孫雅麗" data-chinese-title="教授" aria-label="View information about Yeali Sun" aria-haspopup="dialog" aria-controls="speaker-dialog">
+                <img src="assets/images/speakers/Yeali Sun.jpg" alt="Yeali Sun">
+                <span class="speaker-photo-plus" aria-hidden="true">+</span>
+              </button>
+              <p class="speaker-type">Opening Speaker</p>
+              <h3><span class="speaker-title">Professor</span> <span class="speaker-name">Yeali Sun</span></h3>
+              <p class="speaker-affiliation">National Taiwan University (NTU)</p>
+            </article>
+          </div>
+        </section>
         <section id="speakers" class="program-part" aria-label="Workshop speakers">
+          <h2 class="speaker-section-title">Invited Speakers</h2>
           <div class="speaker-grid program-speaker-grid">
 <article class="speaker-card">
               <button class="speaker-photo speaker-photo-trigger" type="button" data-speaker-info="speaker-info-jean-yves-marion" aria-label="View information about Jean-Yves Marion" aria-haspopup="dialog" aria-controls="speaker-dialog">
@@ -199,6 +214,32 @@
   </div>
   <div id="speaker-dialog-content" class="speaker-dialog-content"></div>
 </dialog>
+<template id="speaker-info-yeali-sun">
+  <!-- Source: https://management.ntu.edu.tw/en/faculty/teacher/sn/11 ; checked 2026-10-21. Title follows organizer wording. -->
+  <div class="speaker-info-content">
+    <div class="speaker-info-summary speaker-info-section">
+      <dl class="speaker-details">
+        <div class="speaker-detail"><dt>Title</dt><dd>Professor</dd></div>
+        <div class="speaker-detail"><dt>Affiliation</dt><dd>Department of Information Management, National Taiwan University (NTU)</dd></div>
+        <div class="speaker-detail"><dt>Email</dt><dd><a href="mailto:sunny@ntu.edu.tw">sunny@ntu.edu.tw</a></dd></div>
+      </dl>
+      <ul class="speaker-links">
+        <li><a href="https://management.ntu.edu.tw/en/faculty/teacher/sn/11" target="_blank" rel="noopener noreferrer">Faculty Profile &nearr;</a></li>
+      </ul>
+    </div>
+    <hr class="speaker-info-divider">
+    <section class="speaker-info-section" aria-labelledby="speaker-info-yeali-sun-research-interest">
+      <h3 id="speaker-info-yeali-sun-research-interest">Research Interest</h3>
+      <ul>
+        <li>Cybersecurity</li>
+        <li>AI-assisted threat intelligence, advanced attacks, and malware forensics</li>
+        <li>Internet and mobile networking</li>
+        <li>Modeling and evaluation of network and system performance</li>
+        <li>Network quality of service and cloud services</li>
+      </ul>
+    </section>
+  </div>
+</template>
 <template id="speaker-info-jean-yves-marion">
   <!-- Biography and contact source: docs/CV_workshop.pdf, pages 5-6. Websites checked against official pages on 2026-10-16. -->
   <div class="speaker-info-content">
