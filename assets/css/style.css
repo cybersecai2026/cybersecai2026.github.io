@@ -685,10 +685,13 @@ h4 { font-size: 1rem; line-height: 1.3; margin-bottom: 8px; }
 .speaker-info-summary .speaker-links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 16px 0 0; padding: 0; list-style: none; }
 .speaker-info-summary .speaker-links li { margin: 0; padding: 0; }
 .speaker-links a,
+.speaker-info-content p a,
 .speaker-info-content a[href^="mailto:"] { color: var(--primary-2); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 .speaker-links a:hover,
+.speaker-info-content p a:hover,
 .speaker-info-content a[href^="mailto:"]:hover { color: var(--primary); }
 .speaker-links a:focus-visible,
+.speaker-info-content p a:focus-visible,
 .speaker-info-content a[href^="mailto:"]:focus-visible { outline: 2px solid var(--primary-2); outline-offset: 4px; }
 .speaker-info-content h3 { margin: 28px 0 12px; color: var(--primary); font-size: 1.25rem; }
 .speaker-info-divider { display: block; width: 100%; height: 0; margin: 24px 0; padding: 0; border: 0; border-top: 1px solid #b8c7d8; opacity: 1; }
