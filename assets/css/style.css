@@ -1403,7 +1403,7 @@ body.speaker-dialog-open { overflow: hidden; }
 #home-venue { padding-top: 24px; padding-bottom: 24px; }
 #home-venue + #submissions { padding-top: 24px; }
 #submissions { padding-bottom: 24px; }
-#submissions + #contact { padding-top: 24px; }
+#submissions + #contact { padding-top: 48px; padding-bottom: 48px; }
 .home-venue .section-heading + .meeting-room-map { margin-top: 0; }
 .home-venue .meeting-room-map h3 { margin-bottom: 24px; font-size: clamp(1.3rem, 2vw, 1.65rem); }
 .home-venue .meeting-room-map-image { max-width: 600px; }
