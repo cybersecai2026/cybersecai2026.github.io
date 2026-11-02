@@ -1388,3 +1388,12 @@ body.speaker-dialog-open { overflow: hidden; }
   .glance-parallel-time { grid-column: 1 / -1; padding: 6px 13px 0; }
   .day-heading { align-items: flex-start; flex-direction: column; }
 }
+
+/* Program images for each workshop day. */
+.program-days { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 28px; }
+.program-day-button { border: 1px solid var(--border); background: white; color: var(--primary); cursor: pointer; font: inherit; font-weight: 700; }
+.program-day-button[aria-pressed="true"] { background: var(--primary); border-color: var(--primary); color: white; }
+.program-day-button:focus-visible { outline: 2px solid var(--primary-2); outline-offset: 4px; }
+.program-day-panel { min-height: clamp(320px, 60vw, 800px); }
+.program-day-panel[hidden] { display: none; }
+.program-day-panel img { display: block; width: 100%; height: auto; }
