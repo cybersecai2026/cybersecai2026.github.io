@@ -1397,3 +1397,13 @@ body.speaker-dialog-open { overflow: hidden; }
 .program-day-panel { min-height: clamp(320px, 60vw, 800px); }
 .program-day-panel[hidden] { display: none; }
 .program-day-panel img { display: block; width: 100%; height: auto; }
+
+/* Venue maps below the homepage dates. */
+#important-dates { padding-bottom: 24px; }
+#home-venue { padding-top: 24px; padding-bottom: 24px; }
+#home-venue + #submissions { padding-top: 24px; }
+#submissions { padding-bottom: 24px; }
+#submissions + #contact { padding-top: 24px; }
+.home-venue .section-heading + .meeting-room-map { margin-top: 0; }
+.home-venue .meeting-room-map h3 { margin-bottom: 24px; font-size: clamp(1.3rem, 2vw, 1.65rem); }
+.home-venue .meeting-room-map-image { max-width: 600px; }
