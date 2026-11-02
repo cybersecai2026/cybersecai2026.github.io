@@ -178,17 +178,3 @@ document.querySelectorAll(".route-tabs").forEach((tabs) => {
     });
   }
 })();
-
-// Switch between the two program image panels.
-document.querySelectorAll('.program-days').forEach((switcher) => {
-  const buttons = switcher.querySelectorAll('.program-day-button');
-  buttons.forEach((button) => {
-    button.addEventListener('click', () => {
-      buttons.forEach((item) => {
-        const selected = item === button;
-        item.setAttribute('aria-pressed', String(selected));
-        document.getElementById(item.getAttribute('aria-controls')).hidden = !selected;
-      });
-    });
-  });
-});
